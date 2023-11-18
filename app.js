@@ -1,4 +1,4 @@
-const school = require("./GabrielTan_EGL301.js");
+const school = require("./GabrielTan_StudentManagement.js");
 school.addStudent("Test","L1");
 console.log(school.getStudent(1));
 school.assignModule(1,"NewModule","AAA111","Mr New");
