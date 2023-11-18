@@ -15,4 +15,20 @@ This Student Management System is created to manage students within a school and
 There are 3 functions associated with the Students
 ### Add Student
 addStudent(studentName,group)
+Adds a student to students array
+"studentName" = name of student
+"group" = group that student is in
+this function also creates an empty modules array for that student
+### Get Student
+getStudent(index)
+Gets the student at the specified index
+"index" = index of target student in students array
+### Remove Student
+removeStudent(index)
+Removes the student from the students array at the specified index
+"index" = index of target student in students array
 
+## Modules
+There are 3 functions associated with the Modules
+### Assign Module
+`assignModule(index,moduleName,moduleCode,moduleLecturer)`
